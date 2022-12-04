@@ -1,0 +1,25 @@
+.menu-result {
+    width: 224px;
+    padding: 10px 5px;
+}
+
+.menu-btn {
+    cursor: pointer;
+    padding: 10px 10px;
+
+    .item-btn {
+        font-size: 1.5rem;
+        font-weight: 400;
+        background-color: transparent;
+        color: var(--primary-black);
+        display: block;
+
+        svg {
+            padding: 0px 5px;
+        }
+    }
+
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.04);
+    }
+}
