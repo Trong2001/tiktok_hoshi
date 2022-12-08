@@ -6,6 +6,7 @@
 .menu-btn {
     cursor: pointer;
     padding: 10px 10px;
+    height: 42px;
 
     .item-btn {
         font-size: 1.5rem;
@@ -21,5 +22,27 @@
 
     &:hover {
         background-color: rgba(0, 0, 0, 0.04);
+    }
+}
+
+// header menu css
+.header {
+    position: relative;
+    height: 50px;
+    display: flex;
+    align-items: center;
+
+    .back-language {
+        background-color: transparent;
+        width: 50px;
+        height: 100%;
+    }
+
+    .title-language {
+        position: absolute;
+        left: 70px;
+        top: 10px;
+        font-size: 16px;
+        font-weight: 600;
     }
 }

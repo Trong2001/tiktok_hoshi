@@ -27,6 +27,23 @@ const MENU_ITEM = [
     {
         icon: <FontAwesomeIcon icon={faGlobe} />,
         title: 'Tiếng Việt',
+        chidrent: {
+            title: 'Language',
+            data: [
+                {
+                    code: 'ENG',
+                    title: 'English',
+                },
+                {
+                    code: 'VIE',
+                    title: 'Viet Nam',
+                },
+                {
+                    code: 'PAC',
+                    title: 'Phanh Chó',
+                },
+            ],
+        },
     },
     {
         icon: <FontAwesomeIcon icon={faCommentDots} />,

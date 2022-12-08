@@ -12,7 +12,7 @@ function Button({
     outline = false,
     small = false,
     big = false,
-    round= false ,
+    round = false,
     children,
     onClick,
     ...passProps
