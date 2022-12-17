@@ -1,0 +1,18 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: var(--default-layout-width);
+    padding: 0 var(--default-layout-horizontal-spacer);
+    display: flex;
+
+    //fix header scroll
+    margin-top: var(--default-layout-header-height, 60px);;
+}
+
+.content {
+    flex: 1;
+}
